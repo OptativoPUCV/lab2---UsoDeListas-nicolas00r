@@ -150,3 +150,9 @@ exercises.c:99:9: error: ‘elem’ undeclared (first use in this function)
 exercises.c:99:9: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 a17974a
+Wed 20 Mar 2024 06:06:53 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|2
+total_score: 40/70
+dc68af5
