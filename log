@@ -527,3 +527,9 @@ exercises.c:126:14: error: unused variable ‘caracter’ [-Werror=unused-variab
 cc1: all warnings being treated as errors
 Compilation failed
 5d339e5
+Wed 20 Mar 2024 06:39:55 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|1
+total_score: 50/70
+8796eb6
