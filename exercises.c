@@ -149,9 +149,9 @@ int parentesisBalanceados(char *cadena) {
           else return 0;
       }
       cadena++;
-  }*/
+  }*/}
   imprime_y_vacia_pila(pilaAux);
   if(pilaAux == NULL) return 1;
   return 0;
 }
-}
+
