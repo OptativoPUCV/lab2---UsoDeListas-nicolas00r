@@ -513,3 +513,17 @@ Wed 20 Mar 2024 06:35:37 PM UTC:
  tests:  4|1
 total_score: 50/70
 3f8ee7d
+Wed 20 Mar 2024 06:39:49 PM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:127:11: error: expected ‘,’ or ‘;’ before ‘push’
+  127 |           push(pilaAux, &caracter);
+      |           ^~~~
+exercises.c:126:14: error: unused variable ‘caracter’ [-Werror=unused-variable]
+  126 |         char caracter = 'a'
+      |              ^~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+5d339e5
