@@ -105,3 +105,9 @@ exercises.c:63:9: error: unused variable ‘elem’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 aaf583e
+Wed 20 Mar 2024 05:44:04 PM UTC: 
+ exercises.c | 7 +------
+ 1 file changed, 1 insertion(+), 6 deletions(-)
+ tests:  1|4
+total_score: 10/70
+d57e24d
