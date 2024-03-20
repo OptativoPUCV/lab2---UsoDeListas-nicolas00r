@@ -123,8 +123,8 @@ int parentesisBalanceados(char *cadena) {
   while(*cadena != '\0'){
       if(*cadena == '(' || *cadena == '[' || *cadena == '{')
       {
-          char *caracter = cadena;
-          push(pilaAux, caracter);
+          char caracter = *cadena;
+          push(pilaAux, &caracter);
       } /*else if (*cadena == ')')
       {
           if(top(pilaAux) == NULL)  return 0;
