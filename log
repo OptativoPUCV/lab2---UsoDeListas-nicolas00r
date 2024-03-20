@@ -139,3 +139,14 @@ Wed 20 Mar 2024 06:06:03 PM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 fd9b90b
+Wed 20 Mar 2024 06:06:40 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘copia_pila’:
+exercises.c:99:9: error: ‘elem’ undeclared (first use in this function)
+   99 |   while(elem != NULL){
+      |         ^~~~
+exercises.c:99:9: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+a17974a
