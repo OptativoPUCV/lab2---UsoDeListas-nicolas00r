@@ -29,3 +29,13 @@ exercises.c:47:37: error: invalid application of ‘sizeof’ to incomplete type
       |                                     ^~~~
 Compilation failed
 20653d7
+Wed 20 Mar 2024 05:24:03 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:47:41: error: invalid application of ‘sizeof’ to incomplete type ‘List’
+   47 |      L = (List *) realloc(L, i * sizeof(List));
+      |                                         ^~~~
+Compilation failed
+9831dc7
