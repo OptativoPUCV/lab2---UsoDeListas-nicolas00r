@@ -4,3 +4,13 @@ Wed 20 Mar 2024 05:13:04 PM UTC:
  tests:  0|5
 total_score: 0/70
 4f08a3f
+Wed 20 Mar 2024 05:21:39 PM UTC: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:47:37: error: invalid application of ‘sizeof’ to incomplete type ‘List’
+   47 |      L = (List *) realloc(L, sizeof(List));
+      |                                     ^~~~
+Compilation failed
+400ecef
