@@ -150,6 +150,6 @@ int parentesisBalanceados(char *cadena) {
       }
   }
   if(pilaAux == NULL) return 1;
-  else return 0;
+  return 0;
 }
 
