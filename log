@@ -59,3 +59,9 @@ exercises.c:47:41: error: invalid application of ‘sizeof’ to incomplete type
       |                                         ^~~~
 Compilation failed
 e418a58
+Wed 20 Mar 2024 05:27:05 PM UTC: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  0|5
+total_score: 0/70
+36e706a
