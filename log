@@ -573,3 +573,32 @@ Thu 21 Mar 2024 02:38:37 AM UTC:
  tests:  4|1
 total_score: 50/70
 b19ddd4
+Thu 21 Mar 2024 02:39:43 AM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c:155:3: error: data definition has no type or storage class [-Werror]
+  155 |   imprime_y_vacia_pila(pilaAux);
+      |   ^~~~~~~~~~~~~~~~~~~~
+exercises.c:155:3: error: type defaults to ‘int’ in declaration of ‘imprime_y_vacia_pila’ [-Werror=implicit-int]
+exercises.c:155:3: error: parameter names (without types) in function declaration [-Werror]
+exercises.c:155:3: error: conflicting types for ‘imprime_y_vacia_pila’; have ‘int()’
+exercises.c:27:6: note: previous definition of ‘imprime_y_vacia_pila’ with type ‘void(Stack *)’ {aka ‘void(List *)’}
+   27 | void imprime_y_vacia_pila(Stack *P) {
+      |      ^~~~~~~~~~~~~~~~~~~~
+exercises.c:156:3: error: expected identifier or ‘(’ before ‘if’
+  156 |   if(pilaAux == NULL) return 1;
+      |   ^~
+exercises.c:157:3: error: expected identifier or ‘(’ before ‘return’
+  157 |   return 0;
+      |   ^~~~~~
+exercises.c:158:1: error: expected identifier or ‘(’ before ‘}’ token
+  158 | }
+      | ^
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:154:3: error: control reaches end of non-void function [-Werror=return-type]
+  154 |   }
+      |   ^
+cc1: all warnings being treated as errors
+Compilation failed
+3705658
