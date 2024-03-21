@@ -544,3 +544,14 @@ exercises.c:127:25: error: cast to pointer from integer of different size [-Werr
 cc1: all warnings being treated as errors
 Compilation failed
 81d3d3f
+Thu 21 Mar 2024 01:51:13 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:127:25: error: cast to pointer from integer of different size [-Werror=int-to-pointer-cast]
+  127 |           push(pilaAux, (int *)caracter);
+      |                         ^
+cc1: all warnings being treated as errors
+Compilation failed
+1118b5e
