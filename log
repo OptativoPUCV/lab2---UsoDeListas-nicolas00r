@@ -614,3 +614,23 @@ Thu 21 Mar 2024 02:40:48 AM UTC:
  tests:  4|1
 total_score: 50/70
 aa6a3a2
+Thu 21 Mar 2024 02:41:29 AM UTC: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:126:30: error: expected ‘)’ before ‘cadena’
+  126 |           push(pilaAux, (char cadena);
+      |                         ~    ^~~~~~~
+      |                              )
+exercises.c:126:38: error: expected expression before ‘;’ token
+  126 |           push(pilaAux, (char cadena);
+      |                                      ^
+exercises.c:126:39: error: expected ‘;’ before ‘}’ token
+  126 |           push(pilaAux, (char cadena);
+      |                                       ^
+      |                                       ;
+  127 |       }else if (*cadena == ')')
+      |       ~                                
+Compilation failed
+dc07b84

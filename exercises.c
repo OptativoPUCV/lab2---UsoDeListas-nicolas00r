@@ -28,7 +28,7 @@ void imprime_y_vacia_pila(Stack *P) {
    void *dato;
    printf("[");
    while((dato = pop(P)) != NULL) {
-      printf("%c ", *(char*)dato);
+      printf("%d ", *(int*)dato);
    }
    printf("]\n");
 }
@@ -119,12 +119,11 @@ paraéntesis balanceados. Retorna 1 si están balanceados,
 
 int parentesisBalanceados(char *cadena) {
   Stack *pilaAux = create_stack();
-  imprime_y_vacia_pila(pilaAux);
 
   while(*cadena != '\0'){
       if(*cadena == '(' || *cadena == '[' || *cadena == '{')
       {
-          push(pilaAux, cadena);
+          push(pilaAux, (char cadena);
       }else if (*cadena == ')')
       {
           if(top(pilaAux) == NULL)  return 0;
@@ -151,6 +150,7 @@ int parentesisBalanceados(char *cadena) {
       }
       cadena++;
   }
+  imprime_y_vacia_pila(pilaAux);
   if(pilaAux == NULL) return 1;
   return 0;
 }
